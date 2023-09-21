@@ -1,6 +1,7 @@
 on: [push]
 jobs:
   build:
+  runs-on: ubuntu-latest
     steps:
       - name: Setup Bun Runtime
         uses: antongolub/action-setup-bun@v1 # or @v1.x.x
