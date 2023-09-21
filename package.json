@@ -13,6 +13,11 @@
 		"test:integration": "playwright test",
 		"test:unit": "vitest"
 	},
+	"husky":{
+		"hooks":{
+			"pre-commit": "eslint ."
+		}
+	}
 	"devDependencies": {
 		"@fontsource/fira-mono": "^4.5.10",
 		"@neoconfetti/svelte": "^1.0.0",
