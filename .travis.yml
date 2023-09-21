@@ -1,2 +1,4 @@
 #.travis.yml
-language: bun_js
+language: node_js
+script:
+  - bun test --bail
